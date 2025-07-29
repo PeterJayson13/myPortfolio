@@ -40,10 +40,12 @@
                 <a href="https://gitlab.com/peterbongabong7" target="_blank"><img src="/images/Gitlab.png" class="img-fluid social-icon" alt="GitLab"></a>
                 <a href="https://www.linkedin.com/in/peter-jayson-bongabong-b43793365/" target="_blank"><img src="/images/Linkedin.png" class="img-fluid social-icon" alt="LinkedIn"></a>
               </div>
-              <button type="button" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#myModal" :disabled="isLoading">{{isLoading ? "Sending..." : "Submit"}}</button>
+              <div>
+                <button type="button" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#myModal" :disabled="isLoading">{{isLoading ? "Sending..." : "Submit"}}</button>
 
-              <div class="d-flex justify-content-end mt-2">
-                  <div ref="recaptchaContainer"></div>
+                <div class="d-flex justify-content-end mt-2">
+                    <div ref="recaptchaContainer"></div>
+                </div>
               </div>
             </div>
           </form>
@@ -123,7 +125,7 @@
                 }
             }
 
-    const SITE_KEY = '6Ldhu5IrAAAAAMk8XQpLibXd0Iv5tJfHLmwMnVZ9';  // Replace with your site key
+    const SITE_KEY = '6LfEy5IrAAAAAPzOSH2nFHSSAl2q5Ufj2uwh381U';  // Replace with your site key
 
     const recaptchaContainer = ref(null);
     const recaptchaWidgetId = ref(null);
@@ -175,9 +177,6 @@
         clearInterval(interval);
       });
     });
-
-
-
 
 
 </script>
