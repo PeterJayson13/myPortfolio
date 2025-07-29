@@ -65,7 +65,7 @@
         }
     }
 
-    const SITE_KEY = '6LfoupIrAAAAAEL7dbareLJhv5hpFHKQtpzr-IpF';  // Replace with your site key
+    const SITE_KEY = '6Ldhu5IrAAAAAMk8XQpLibXd0Iv5tJfHLmwMnVZ9';  // Replace with your site key
 
     const recaptchaContainer = ref(null);
     const recaptchaWidgetId = ref(null);
@@ -151,6 +151,10 @@
                                     <a href="https://github.com/cbabbage0991" id="github"><i class="fab fa-github"></i></a>
                                 </div>
                                 <button type="submit" class="submit-btn pl-5 pr-5" :disabled="isLoading">{{isLoading ? "Sending.." : "Submit"}}</button>
+                            </div>
+
+                            <div class="d-flex justify-content-end mt-2">
+                                <div ref="recaptchaContainer"></div>
                             </div>
                         </form>
                         
