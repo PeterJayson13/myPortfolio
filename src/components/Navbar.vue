@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar sticky-top bg-white border-bottom" aria-label="Primary">
+  <nav class="navbar sticky-top bg-light border-bottom" aria-label="Primary">
     <a class="skip-link" href="#main">Skip to content</a>
 
     <div class="container-fluid d-flex justify-content-center">
