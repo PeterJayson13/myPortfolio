@@ -1,7 +1,7 @@
 <template>
   <section class="about-section bg-light">
-    <h1 class="about-title">About <span class="highlight">Me</span></h1>
     <div class="container">
+      <h1 class="about-title">About <span class="highlight">Me</span></h1>
       <div class="about-columns">
         <p>
           Hi, I’m Peter — a web developer passionate about creating clean, responsive, and user-friendly websites using Vue.js and the MERN stack. I enjoy transforming ideas into functional, visually appealing applications that work smoothly and look great.
@@ -28,10 +28,9 @@
 }
 
 .about-title {
-  font-size: 2rem;
-  margin-bottom: 2rem;
   font-family: 'Archivo Black', sans-serif;
   text-align: center;
+  padding-bottom: 2rem;
 }
 
 .highlight {

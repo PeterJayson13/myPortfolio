@@ -20,10 +20,7 @@ import ProjectCard from './ProjectCard.vue';
 
 <style>
 .project-title {
-  font-size: 2rem;
-  margin-bottom: 2rem;
   font-family: 'Archivo Black', sans-serif;
-  text-align: center;
   color: #fb5607;
 }
 .highlight {
