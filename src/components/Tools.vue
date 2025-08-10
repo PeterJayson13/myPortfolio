@@ -167,7 +167,7 @@
             </div>
           </div>
         </div>
-      </div><!-- row -->
+      </div>
     </div>
   </section>
 </template>

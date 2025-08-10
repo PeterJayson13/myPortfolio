@@ -21,6 +21,11 @@
           <p class="lead mt-3">
             Hi there, I'm Peter — a Web Developer who loves building clean and creative websites. I'm just getting started, but I'm all in.
           </p>
+          <div class="mt-3">
+            <a href="/resume/BongabongPeterJaysonCV.pdf" target="_blank" rel="noopener" class="btn btn-view-resume">
+              View my resume
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -52,4 +57,19 @@
 .landing-section {
   padding-top: 60px; 
 }
+.btn-view-resume{
+  background-color: #fb5607;
+  color: #fff;
+  border: 1px solid #fb5607;
+  border-radius: 10px;
+  padding: 10px 14px;
+  transition: background-color 150ms ease, border-color 150ms ease, transform 120ms ease;
+}
+.btn-view-resume:hover{
+  background-color: #e14d06; /* dimmed orange */
+  border-color: #e14d06;
+}
+.btn-view-resume:active{ background-color: #c74305; border-color: #c74305; }
+.btn-view-resume:focus-visible{ outline: 2px solid #fb5607; outline-offset: 2px; }
+
 </style>
