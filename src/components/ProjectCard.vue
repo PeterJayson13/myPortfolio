@@ -1,16 +1,23 @@
 <template>
-  <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-    <div class="card project-card h-100 shadow-sm">
-      <div class="project-img-wrapper">
-        <img
-          :src="project.image"
-          class="card-img-top project-img"
-          :alt="`${project.title} screenshot`"
-          loading="lazy"
-        />
-      </div>
-      <div class="card-body text-white">
-        <h6 class="card-title text-white">{{ project.title }}</h6>
+  <div class="col-12 col-md-4 mb-4">
+    <div class="card project-card h-100 shadow-sm bg-dark text-white">
+      <a v-if="project.link" :href="project.link" target="_blank" rel="noopener" class="project-link">
+        <div class="project-img-wrapper">
+          <img
+            :src="project.image"
+            class="card-img-top project-img"
+            :alt="`${project.title} screenshot`"
+            loading="lazy"
+          />
+        </div>
+      </a>
+      <div class="card-body">
+        <h6 class="card-title">
+          <a v-if="project.link" :href="project.link" target="_blank" rel="noopener" class="text-white text-decoration-none">
+            {{ project.title }}
+          </a>
+          <span v-else>{{ project.title }}</span>
+        </h6>
         <p class="card-text small text-white">{{ project.description }}</p>
       </div>
     </div>

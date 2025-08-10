@@ -1,7 +1,7 @@
 <template>
-  <section class="about-section bg-dark">
-    <div class="container text-white">
-      <h1 class="about-title">About <span class="highlight">Me</span></h1>
+  <section class="about-section bg-light">
+    <h1 class="about-title">About <span class="highlight">Me</span></h1>
+    <div class="container">
       <div class="about-columns">
         <p>
           Hi, I’m Peter — a web developer passionate about creating clean, responsive, and user-friendly websites using Vue.js and the MERN stack. I enjoy transforming ideas into functional, visually appealing applications that work smoothly and look great.
