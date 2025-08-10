@@ -1,5 +1,8 @@
 body {
-  background-color: black;
-  font-family: "Inconsolata", monospace;
-  color: white;
+  background-color: #ffffff; /* changed from black */
+  font-family: "Montserrat", sans-serif;
+  color: black; /* changed from white for better readability on white background */
+}
+a:hover {
+  color: #fb5607;
 }
