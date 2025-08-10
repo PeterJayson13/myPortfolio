@@ -18,13 +18,13 @@
 </template>
 
 <script setup>
-// About Me section — easy to edit content and styling
+
 </script>
 
 <style scoped>
 .about-section {
-  margin-top: 80px; /* space from landing section */
-  padding: 80px 20px; /* more space from landing section */
+  margin-top: 80px; 
+  padding: 80px 20px; 
 }
 
 .about-title {
@@ -41,9 +41,9 @@
 .about-columns {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 150px; /* increased gap between columns */
-  row-gap: 150px; /* increased gap between rows */
-  text-align: left; /* paragraphs aligned left */
+  column-gap: 150px; 
+  row-gap: 150px; 
+  text-align: left; 
   max-width: 1500px;
   margin: 0 auto;
 }

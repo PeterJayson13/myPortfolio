@@ -2,7 +2,7 @@
   <section id="landing" class="landing-section">
     <div class="container">
       <div class="row align-items-center text-center text-md-start g-4">
-        <!-- Keep photo on the left -->
+        
         <div class="col-md-6 text-center">
           <img
             src="/images/ProfilePic1.jpg"
@@ -14,7 +14,7 @@
             sizes="(max-width: 768px) 70vw, 250px"
           />
         </div>
-        <!-- Text on the right -->
+        
         <div class="col-md-6 px-3">
           <h1 class="archivo-black name-heading">Peter Jayson Bongabong</h1>
           <h3 class="archivo-black web">Web Developer</h3>
@@ -50,6 +50,6 @@
   font-size: clamp(1.2rem, 2.5vw, 1.6rem);
 }
 .landing-section {
-  padding-top: 60px; /* space from sticky navbar */
+  padding-top: 60px; 
 }
 </style>

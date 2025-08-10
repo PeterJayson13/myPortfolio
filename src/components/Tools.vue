@@ -1,5 +1,5 @@
 <template>
-  <section id="tools" class="tools-section py-5">
+  <section id="tools" class="tools-section py-5 bg-light">
     <div class="container text-center">
       <h1 class="mb-4 tools-title">Tools <span class="amp">&</span> Frameworks</h1>
 
@@ -173,7 +173,7 @@
 </template>
 
 <script setup>
-// static grid only
+
 </script>
 
 <style scoped>
@@ -211,10 +211,19 @@
   aspect-ratio: 1 / 1;
   display: grid;
   place-items: center;
-  background: rgba(255,255,255,0.03);
-  border: 1px solid rgba(255,255,255,0.08);
+  background: #e5e7eb;      
+  border: 1px solid #cbd5e1; 
   border-radius: 12px;
+  transition: background-color 150ms ease, border-color 150ms ease, box-shadow 150ms ease, transform 120ms ease;
 }
+
+.tool-icon-wrap:hover {
+  background: #d1d5db;          
+  border-color: #d9dde3;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+  transform: translateY(-1px);
+}
+
 .tool-icon-wrap img {
   max-width: 64px;
   max-height: 64px;
