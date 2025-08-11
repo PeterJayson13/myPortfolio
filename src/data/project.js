@@ -11,7 +11,7 @@ const projects = [
     title: 'E-commerce App',
     description:
       'MERN E-Commerce Platform. The platform features dynamic product catalog with filtering and sorting, real-time search, seamless cart updates, secure checkout, and a comprehensive admin dashboard with real-time analytics and user management capabilities.',
-    link: 'https://urban-steps.vercel.app/'
+    link: 'http://zuitt-bootcamp-prod-560-8928-bongabong.s3-website.us-east-1.amazonaws.com/'
   },
   {
     image: '/images/CourseBookingApp.png',
