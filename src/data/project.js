@@ -57,13 +57,13 @@ const projects = [
     image: '/images/Packages.png',
     title: 'Computer Parts E-Commerce Store',
     description: 'Sample static homepage for a Computer Parts E-Commerce Store, featuring product highlights, categories, and a clean, modern layout.',
-    link: 'https://peterjayson13.github.io/home-page/'
+    link: 'https://peterjayson13.github.io/Computer-PC-Sample-Static-Homepage/'
   },
   {
     image: '/images/Packages.png',
     title: 'Robo-Tech Educational Platform Homepage',
     description: 'Sample static homepage for a Robo-Tech Educational Platform using a static webpage design. It highlights featured courses, learning categories, and key program details in a clean, modern layout. The design aims to provide an engaging and easy-to-navigate experience for learners.',
-    link: 'https://peterjayson13.github.io/s82/'
+    link: 'https://peterjayson13.github.io/Sample-static-educational-hub-homepage/'
   },
 ];
 
